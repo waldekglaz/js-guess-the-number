@@ -12,26 +12,34 @@
     align-items: center;
     padding: 1rem;
     text-align: center;
-    background-color: rgba(0, 0, 255,0.2);
+    background-color: #333;
+    color: #ddd;
 }
 .title{
     margin-bottom: 4rem;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
-.myInput{
-    font-size: 1.25rem;
-    padding: 0.5rem;
+.myInput, .btn{
+    font-size: 2rem;
+    padding: 1rem;
     width: 40%;
     margin-bottom: 2rem;
+    font-weight: 900;
+    text-align: center;
 }
 .msg{
-    font-size: 0.85rem;
+    font-size: 1.5rem;
     margin-bottom: 4rem;
     line-height: 1.5;
 }
 .btn{
-    padding: 0.5rem 1rem;
-    font-weight: 900;
+    border-radius: 1.5rem;
+    background-color: rgb(51, 170, 57);
+    border-color: transparent;
+    box-shadow: 0 2px #000;
+}
+
+.btn:hover{
     background-color: #fff;
-    border-radius: 0.5rem;
+    color: rgb(51, 170, 57);;
 }
